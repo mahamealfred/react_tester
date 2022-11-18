@@ -9,6 +9,7 @@ function App() {
       <h1>Hello from Alfred</h1>
      {/* <p>{sum.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",")}</p> */}
      <p>{ap.replaceAll(/\s/g, '')}</p>
+     <p>{sum.toLocaleString()}</p>
     </div>
   );
 }
